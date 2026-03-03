@@ -23,7 +23,7 @@ The script generates a portfolio with:
 - Dormant card-months (realistic inactivity)
 - Income-correlated credit limits
 
-**Python file**: [`python/data_generation.py`](python/data_generation.py)
+**Python file**: [`python/data_generation/`](python/data_generation/)
 
 ---
 ## 2) Relational Schema
@@ -87,7 +87,7 @@ SQL creates summary tables used directly in Power BI:
 - Rewards effectiveness (reward-to-spend ratio)
 - Profitability model + bands
 
-SQL location: [`sql`](sql.sql)
+SQL Location: [`sql/`](sql/)
 
 ---
 ## Visualization Layer (Power BI)
