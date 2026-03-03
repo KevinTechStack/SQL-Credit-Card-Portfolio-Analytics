@@ -23,7 +23,7 @@ This dataset is synthetically generated (Python) to simulate a multi-country cre
 - Dormant card-months (realistic inactivity)
 - Income-correlated credit limits
 
-Reference: [Synthetic Data Generation (Python)](../01_Executive_Summary.md#step-1-synthetic-data-generation-python)
+Reference (**Python files**): [`python/data_generation/`](python/data_generation/)
 
 ---
 
