@@ -51,17 +51,22 @@ Banks need reliable portfolio insights to make data-driven decisions on:
 **Portfolio Overview**
 ![Portfolio Overview](images/Portfolio_Overview_page_1.png)
 
+
 **Spend & Channels**
 ![Spend and Channels](images/Spend_and_Channels_page_2.png)
+
 
 **Rewards & Profitability**
 ![Rewards and Profitability](images/Rewards_and_Profitability_page_3.png)
 
+
 **Fraud & Risk**
 ![Fraud and Risk](images/Fraud_and_Risk_page_4.png)
 
+
 **Segments & Customers**
 ![Segments and Customers](images/Segments_and_Customers_page_5.png)
+
 
 ---
 
