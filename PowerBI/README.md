@@ -4,7 +4,7 @@
 ---
 
 ## How to open
-1. Download PowerBI/CC_PORTFOLIO_ANALYSIS_new.pbix from PowerBI/
+1. Download PowerBI/CC_PORTFOLIO_ANALYSIS_new.pbix from [`PowerBI/CC_PORTFOLIO_ANALYSIS_new.pbix`](../PowerBI/)
 2. Open in **Power BI Desktop**
 3. Use the page tabs to navigate across the 5 dashboard pages
 
