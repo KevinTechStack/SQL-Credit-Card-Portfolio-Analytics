@@ -7,10 +7,10 @@
 1. Download `powerbi/credit_card_portfolio.pbix`
 2. Open in **Power BI Desktop**
 3. Use the page tabs to navigate across the 5 dashboard pages
+
 > Note: `.pbix` is a binary file. GitHub won’t preview it—open the file and click **Download** (or **Raw**) to get the PBIX.
 
 ---
-
 
 ## KPI definitions (must match SQL)
 - **Total Customers**: distinct customers in `customers`
@@ -36,5 +36,3 @@ To reproduce the dataset:
   - `sql/02_sanity_checks.sql`
   - `sql/03_analysis_queries.sql`
 - Refresh Power BI model and validate KPI alignment (Total Spend, Fraud Rate, Pareto %)
-
-
