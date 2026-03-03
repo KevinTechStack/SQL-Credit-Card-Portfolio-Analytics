@@ -12,7 +12,7 @@
 
 ---
 
-## KPI definitions (must match SQL)
+## KPI definitions
 - **Total Customers**: distinct customers in `customers`
 - **Cards issued**: count of `card_id` in `cards`
 - **Total Spend (USD)**: sum of `transactions.amount_usd`
