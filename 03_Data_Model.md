@@ -4,7 +4,7 @@
 
 ---
 
-## 0) Synthetic Data Creation (Python)
+## 1) Synthetic Data Creation (Python)
 
 This project uses **synthetic data generated using Python** to simulate a multi-country credit card portfolio while remaining safe to publish (no real PII).
 
@@ -26,7 +26,7 @@ The script generates a portfolio with:
 **Python file**: `python/data_generation.py`
 
 ---
-
+## 2) Relational Schema
 ## ER Diagram + Analytics Design
 
 ---
@@ -75,12 +75,27 @@ The script generates a portfolio with:
 - **Used for**: normalizing multi-currency spend into USD
 
 ---
+
+## 3) Analytics Layer (SQL outputs)
+
+SQL creates summary tables used directly in Power BI:
+- Customer spend summary (customer-level spend, transactions, ticket size)
+- Segment spend summary (customers, spend contribution, avg spend)
+- Category / channel / weekend summaries (mix + percent shares)
+- Fraud summaries (portfolio fraud rate, fraud by segment)
+- Pareto analysis (top 20% customers → 57% spend)
+- Rewards effectiveness (reward-to-spend ratio)
+- Profitability model + bands
+
+SQL location: `sql/03_analysis_queries.sql`
+
+---
+
 ## Implementation Files
 - Schema: `sql/01_schema.sql`
 - Quality checks: `sql/02_sanity_checks.sql`
 - Analysis: `sql/03_analysis_queries.sql`
 
 ---
-
 **[Next: Business Insights Report →](04_Business_Insights_Report.md)**
 
